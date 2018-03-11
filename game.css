@@ -1,0 +1,34 @@
+body {
+	background: #fff;
+}
+
+#canvas { 
+	background: url('../img/background.png') no-repeat center center;
+	background-size: cover;
+	width: 1200px;
+	height: 600px;
+	position: absolute;
+	left: calc(50% - 1200px / 2);
+	top: calc(50% - 600px / 2);
+}
+
+#gameover {
+	background: url('../img/background.png') no-repeat center center;
+	background-size: cover;
+	width: 1200px;
+	height: 600px;
+	position: absolute;
+	left: calc(50% - 1200px / 2);
+	top: calc(50% - 600px / 2);
+}
+
+#gameover h2 {
+		left: 0;
+	top: 300px;
+	width: 100%;
+	font-family: Freestyle skript;
+	font-size: 100px;
+	color: #FFFFFF;
+	text-align: center;
+
+}
